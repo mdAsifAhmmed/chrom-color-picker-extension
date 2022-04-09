@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.colorpikerwhapper {
+  width: 300px;
+  height: fit-content;
+  padding: 20px;
+  background-color: rgba(18, 18, 19, 0.842);
+}
+
+h1 {
+  color: white;
+  /* font-size: 30px; */
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(29, 27, 27, 0);
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.colorpickercode {
+  padding: 10px;
+  font-size: 30px;
+  margin: 0px;
+}
+.changeColorBtn {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 30px;
+  background-color: black;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.selectedColor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.colorGrid{
+  width: 50%;
+  height: 50px;
+}
